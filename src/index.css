@@ -2,13 +2,38 @@
 @tailwind components;
 @tailwind utilities;
 
-html, body {
+html,
+body {
     background-color: #f6f6f6;
     font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-.eventBanner{
+.eventBanner {
     background-image: url("./images/event.webp");
+}
+
+.parallax {
+    z-index: 10;
+    width: 50%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/image1.webp");
+}
+
+.alumnis {
+    background-image: url("./images/alumni.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.management {
+    background-image: url("./images/nss-sukumaran-nair.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }

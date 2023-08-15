@@ -8,7 +8,7 @@ module.exports = {
         bgColor: "#f6f6f6",
         peachColor: "#f6ebe4",
         stoneGray: "#d9d9d9",
-        darkColor: "#2o2o2o",
+        darkColor: "#202020",
         hoverBlueColor: "#b0b8db",
         bgHBColor: "#c1d7e0",
       },
