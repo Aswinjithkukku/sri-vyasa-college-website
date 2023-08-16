@@ -19,7 +19,7 @@ function FeaturesSection() {
             <div className="md:w-1/2 p-4 md:p-0 space-y-4">
               <div className="flex gap-2 items-center">
                 <Reveal transition={{ delay: 0.3, duration: 1.5 }}>
-                  <h4 className="text-6xl tracking-tight font-bold text-white">
+                  <h4 className="text-5xl md:text-6xl tracking-tight font-bold text-white">
                     ACADEMICS
                   </h4>
                 </Reveal>
@@ -60,7 +60,7 @@ function FeaturesSection() {
             <div className="md:w-1/2 p-4 md:p-0  space-y-4">
               <div className="flex gap-2 items-center">
                 <Reveal transition={{ delay: 0.3, duration: 1.5 }}>
-                  <h4 className="text-6xl tracking-tight font-bold text-white">
+                  <h4 className="text-5xl md:text-6xl tracking-tight font-bold text-white">
                     ACADEMICS
                   </h4>
                 </Reveal>
@@ -87,7 +87,7 @@ function FeaturesSection() {
             <div className="md:w-1/2 space-y-4 p-4 md:p-0">
               <div className="flex gap-2 items-center">
                 <Reveal transition={{ delay: 0.3, duration: 1.5 }}>
-                  <h4 className="text-6xl tracking-tight font-bold text-white">
+                  <h4 className="text-5xl md:text-6xl tracking-tight font-bold text-white">
                     ACADEMICS
                   </h4>
                 </Reveal>

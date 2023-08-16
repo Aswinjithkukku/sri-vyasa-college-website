@@ -47,7 +47,7 @@ function AboutSection() {
           variants={{ hidden: { opacity: 0 }, visible: { opacity: 1 } }}
           transition={{ delay: 0.5, duration: 3 }}
         >
-          <div className="text-center text-7xl font-medium uppercase py-5">
+          <div className="text-center text-6xl md:text-7xl font-medium uppercase py-5">
             OUR STRENGTHS
           </div>
         </Reveal>
