@@ -5,7 +5,7 @@ function CardSection() {
   const data = ["NCC", "NSS", "ISCOV", "LIBRARY"];
   return (
     <div className="max-w-screen-lg mx-auto px-2 py-10">
-      <div className="grid grid-cols-4 gap-2">
+      <div className="grid md:grid-cols-4 grid-cols-2 gap-2">
         {data?.map((item, index) => (
           <div
             key={index}

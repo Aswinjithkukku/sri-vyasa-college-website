@@ -8,7 +8,7 @@ function EventsSection() {
           <h2 className="py-10 text-3xl font-medium text-primary text-center">
             Upcoming Events
           </h2>
-          <div className="grid grid-cols-3 gap-5 text-primary">
+          <div className="md:grid grid-cols-3 gap-5 text-primary">
             <div className="w-full h-[600px] flex items-end  eventBanner border group ">
               <div className="bg-hoverBlueColor  w-full py-10 flex flex-col items-center hover:justify-center gap-5 h-52 group-hover:h-full transition-all duration-500">
                 <h5 className="text-3xl font-semibold ">

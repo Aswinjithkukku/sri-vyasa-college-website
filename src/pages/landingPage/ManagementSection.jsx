@@ -12,13 +12,13 @@ function ManagementSection() {
       </div>
       <div className="bg-stoneGray py-10">
         <div className="max-w-screen-lg mx-auto">
-          <div className="grid grid-cols-3 gap-10">
+          <div className="md:grid grid-cols-3 gap-10">
             {[1, 2, 3]?.map((item) => (
               <div
                 key={item}
                 className="w-full h-[300px] bg-slate-300 management relative"
               >
-                <div className="absolute bottom-0 -right-5 w-11/12 bg-white text-primary py-1 px-4">
+                <div className="absolute bottom-0 md:-right-5 w-full md:w-11/12 bg-white text-primary py-1 px-4">
                   <p className="text-lg font-medium">G Sukumaran Nair</p>
                   <p className="text font-medium">Manager</p>
                 </div>
